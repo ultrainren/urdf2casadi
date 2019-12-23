@@ -9,8 +9,8 @@ With ROS:
 
 Without ROS:
 1. Change the `urdfdom-py` to `urdf-parser-py` in `requirements.txt` (line 3) and in `setup.py` (line 20).
-2. [Get CasADi](https://github.com/casadi/casadi/wiki/InstallationInstructions) (e.g. `pip install casadi`).
-3.  Run `pip install --user .` in the folder (`--user` specifies that it is a local install).
+2. [Get CasADi](https://github.com/casadi/casadi/wiki/InstallationInstructions) (e.g. `pip3 install casadi`).
+3.  Run `pip3 install --user .` in the folder (`--user` specifies that it is a local install).
 
 ## Usage example
 ```python
